@@ -21,3 +21,26 @@ Word Document Template
 Excel Spreadsheet Fields
 
 Folder for New Word Documents
+
+-
+
+Pseudocode
+
+Save each variable blank from Template Word Document to dictionary Variables
+
+Fetch "email" from Source Excel Sheet
+
+Copy Template Word Document
+
+Paste Template Word Document as "email" Word Template
+
+For every variable in Variables
+  Find corresponding value in Source Excel Sheet
+  Store value as variable:value in Variables
+End
+
+For every variable in Variables
+  Find variable in "email" Document
+  Delete variable
+  Insert variable:value
+End
