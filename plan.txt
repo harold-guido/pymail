@@ -1,0 +1,23 @@
+The goal is to send batch emails to a list of email addresses, and each email is populated with a template containing blanks that are filled using a spreadsheet.
+
+Step number one:
+
+Iterate through email addresses - Microsoft Excel File
+
+Gather email address currently working with - Microsoft Excel File
+
+Gather name of blank fields in the template - Microsoft Word File
+
+Duplicate template Word Document and rename it using email address currently working with
+
+Populate each blank field in new Word Document using matching spreadsheet column from Excel Document
+
+- 
+
+Requisites:
+
+Word Document Template
+
+Excel Spreadsheet Fields
+
+Folder for New Word Documents
